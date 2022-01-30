@@ -31,7 +31,7 @@ const PostCard = (post) => {
   // function that redirects automátically, is better than 'Link'
   const redirectionEdition = (post) => {
     retrievePostEditAction(post);
-    navigate(`posts-app/edit/${id}`);
+    navigate(`/posts-app/edit/${id}`)
   };
   // we can also make view from store when call post detail API
   const handleView = (post) => {
