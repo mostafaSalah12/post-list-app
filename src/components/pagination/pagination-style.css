@@ -1,0 +1,21 @@
+ul.pagination {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+ul.pagination li {
+  border-radius: 6px;
+  padding: 4px 10px;
+  background: #fff;
+  color: #6d757d;
+  cursor: pointer;
+}
+ul.pagination li.page-item:hover {
+  background-color: #6d757db0;
+}
+ul.pagination .current {
+  color: #fff;
+  background-color: #6d757d;
+}
