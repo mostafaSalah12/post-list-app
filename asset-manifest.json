@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tareq-rezk/post-list-app/static/css/main.06d7d73b.css",
-    "main.js": "/tareq-rezk/post-list-app/static/js/main.f0c02f60.js",
-    "static/js/787.f93719e6.chunk.js": "/tareq-rezk/post-list-app/static/js/787.f93719e6.chunk.js",
-    "index.html": "/tareq-rezk/post-list-app/index.html",
-    "static/media/edit_black_24dp.svg": "/tareq-rezk/post-list-app/static/media/edit_black_24dp.4fa02ba3eeb22ca444b3fa80117773ac.svg",
-    "static/media/eye.svg": "/tareq-rezk/post-list-app/static/media/eye.d42e2dff8b09be94d6d209f0e86cf2d3.svg",
-    "static/media/delete_black_24dp.svg": "/tareq-rezk/post-list-app/static/media/delete_black_24dp.a53e22036f5f02bda3f291072d6c5f80.svg",
-    "main.06d7d73b.css.map": "/tareq-rezk/post-list-app/static/css/main.06d7d73b.css.map",
-    "main.f0c02f60.js.map": "/tareq-rezk/post-list-app/static/js/main.f0c02f60.js.map",
-    "787.f93719e6.chunk.js.map": "/tareq-rezk/post-list-app/static/js/787.f93719e6.chunk.js.map"
+    "main.css": "/post-list-app/static/css/main.06d7d73b.css",
+    "main.js": "/post-list-app/static/js/main.3a1ea150.js",
+    "static/js/787.f93719e6.chunk.js": "/post-list-app/static/js/787.f93719e6.chunk.js",
+    "index.html": "/post-list-app/index.html",
+    "static/media/edit_black_24dp.svg": "/post-list-app/static/media/edit_black_24dp.4fa02ba3eeb22ca444b3fa80117773ac.svg",
+    "static/media/eye.svg": "/post-list-app/static/media/eye.d42e2dff8b09be94d6d209f0e86cf2d3.svg",
+    "static/media/delete_black_24dp.svg": "/post-list-app/static/media/delete_black_24dp.a53e22036f5f02bda3f291072d6c5f80.svg",
+    "main.06d7d73b.css.map": "/post-list-app/static/css/main.06d7d73b.css.map",
+    "main.3a1ea150.js.map": "/post-list-app/static/js/main.3a1ea150.js.map",
+    "787.f93719e6.chunk.js.map": "/post-list-app/static/js/787.f93719e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06d7d73b.css",
-    "static/js/main.f0c02f60.js"
+    "static/js/main.3a1ea150.js"
   ]
 }
