@@ -8,8 +8,8 @@ function App() {
     <BrowserRouter>
       <Routes>
       <Route path='*' element={<NotFound />} />
-        <Route path="/posts-list" element={<Posts />} />
-        <Route path="/posts-list/edit/:id" element={<EditPost />} />
+        <Route path="/post-list-app" element={<Posts />} />
+        <Route path="/post-list-app/edit/:id" element={<EditPost />} />
       </Routes>
     </BrowserRouter>
   );
