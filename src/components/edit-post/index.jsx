@@ -26,10 +26,10 @@ export default function EditPost() {
     event.preventDefault();
     // if()
     editPostAction(post);
-    navigate("/");
+    navigate("/posts-app");
   };
   const goBack = () => {
-    navigate("/");
+    navigate("/posts-app");
   };
 
   return (
