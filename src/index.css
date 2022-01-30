@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   font-family: "Nunito", sans-serif;
   box-sizing: border-box;
@@ -34,13 +34,18 @@
 }
 
 @media screen and (max-width: 700px) {
-
-  .btn-group{
+  .btn-group {
     justify-content: center;
   }
 }
 
-
-.error-text{
+.error-text {
   color: #b93333;
+}
+
+h2#swal2-title.swal2-title {
+  font-size: 16px;
+}
+div#swal2-html-container {
+  font-size: 14px;
 }

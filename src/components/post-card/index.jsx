@@ -1,13 +1,14 @@
 import React from "react";
-import editIcon from "../../images/edit_black_24dp.svg";
-import deleteIcon from "../../images/delete_black_24dp.svg";
 import { useNavigate } from "react-router-dom";
 import {
   deletePostAction,
   retrievePostEditAction,
 } from "../../redux/actions/posts-actions";
-
 import Swal from "sweetalert2";
+
+import editIcon from "../../images/edit_black_24dp.svg";
+import deleteIcon from "../../images/delete_black_24dp.svg";
+import view from '../../images/eye.svg'
 
 const PostCard = (post) => {
   const { id, title, body } = post;
@@ -32,6 +33,13 @@ const PostCard = (post) => {
     retrievePostEditAction(post);
     navigate(`posts/edit/${id}`);
   };
+  // we can also make view from store when call post detail API
+  const handleView = (post) => {
+    Swal.fire({
+      title: `${post.title}`,
+      text: `${post.body}`,
+    });
+  };
   return (
     <tr>
       <td>{title}</td>
@@ -43,10 +51,15 @@ const PostCard = (post) => {
           className="action__icon edit-icon"
           onClick={() => redirectionEdition(post)}
         />
-
         <img
           src={deleteIcon}
           onClick={() => handleDeletePost(id)}
+          alt=""
+          className="action__icon delete-icon"
+        />
+        <img
+          src={view}
+          onClick={() => handleView(post)}
           alt=""
           className="action__icon delete-icon"
         />

@@ -57,7 +57,7 @@ export const deletePostOkAction = () => store.dispatch(deletePostOk());
 
 export const deletePostErrorAction = () => store.dispatch(deletePostError());
 
-// Edit product
+// Edit post
 const retrievePostAction = (post) => ({
   type: GET_POST_EDIT,
   payload: post,
