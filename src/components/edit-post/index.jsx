@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { editPostAction } from "../../redux/actions/posts-actions";
+import NotFound from "../not-found-page";
 import "./edit-style.css";
 
 export default function EditPost() {
@@ -26,10 +27,10 @@ export default function EditPost() {
     event.preventDefault();
     // if()
     editPostAction(post);
-    navigate("/post-list-app");
+    navigate("/posts-list");
   };
   const goBack = () => {
-    navigate("/post-list-app");
+    navigate("/posts-list");
   };
 
   return (
@@ -77,10 +78,7 @@ export default function EditPost() {
           </form>
         </div>
       ) : (
-        <div className="center-Container">
-          <p>Error Occured, Go Home Page</p>
-          <Link to="/">Go Home</Link>
-        </div>
+      <NotFound />
       )}
     </>
   );
