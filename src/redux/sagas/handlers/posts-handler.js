@@ -10,7 +10,7 @@ import {
   editPostAction,
 } from "../../actions/posts-actions";
 
-import { deletePost, editPost, fetchAllPosts } from "../apiRequests";
+import { deletePost, editPost, fetchAllPosts } from "../../apiRequests";
 import {
   DELETE_POST_PENDING,
   EDIT_POST_PENDING,
